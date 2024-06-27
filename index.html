@@ -1,0 +1,60 @@
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Login Page App</title>
+	<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js" defer></script>
+</head>
+
+<body>
+
+	<div class="container" id="container">
+
+		<div class="header">
+			<h1>Welcome Back</h1>
+		</div>
+
+		<form class="login_form">
+			<input type="email" placeholder="Email" required>
+			<input type="password" placeholder="Password" required>
+			<a href="#" class="forgot_password">Forgot password?</a>
+			<button class="sing_in" type="submit">Sign In</button>
+			<div class="or">OR</div>
+			<button class="sign_in-google">Sign In With Google</button>
+		</form>
+
+		<div class="footer">
+			<p>Don't have account?
+				<a href="#" id="register">Sign Up</a>
+			</p>
+		</div>
+	</div>
+
+<!-- toggle -->
+
+		<div class="toggle_container" id="toggle">
+
+			<div class="toggle_header">
+				<h1>Create Account</h1>
+			</div>
+
+			<form class="toggle_login_form">
+				<input type="text" placeholder="Account name" required>
+				<input type="email" placeholder="Email" required>
+				<input type="password" placeholder="Password" required>
+				<button class="sing_up" type="submit">Sign In</button>
+			</form>
+	
+			<div class="toggle_footer">
+				<p>Already have account?
+					<a href="#" id="login">Sign In</a>
+				</p>
+			</div>
+
+		</div>
+
+	
+</body>
+
+</html>
